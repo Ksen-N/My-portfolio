@@ -99,7 +99,7 @@ h2{
     box-shadow: var(--calm-shadow);
 }
 .project-description{
-    padding: 120px 60px;
+    padding: 105px 60px;
 }
 a.link{
     margin:5px 0;
@@ -223,12 +223,18 @@ footer .social-links a{
 }
 @media(max-width:476px){
     .greet{
-        padding: 100px 2px;
+        padding: 160px 2px;
         padding-bottom: 120px;
     }
     .content-container{
         text-align: center;
         padding: 0;
+        padding-top:120px;
+        padding-bottom: 30px;
+    }
+    .content-container h1{
+        font-size: 34px;
+        line-height: 1.4;
     }
     h1{
         padding-top: 10px;
@@ -263,7 +269,7 @@ footer .social-links a{
         top: 5px;
     }
     .nav-link{
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 
@@ -272,10 +278,11 @@ footer .social-links a{
     .content-container{
         text-align: center;
         padding: 0;
-        margin-top: 90px;
+        padding-top: 65px;
+        padding-bottom: 30px;
     }
     .greet{
-        padding: 95px 20px;
+        padding: 145px 20px;
         padding-bottom: 110px;
     }
     .greet p{
